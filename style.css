@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .con{
+    margin: 1rem auto;
+ }
+
+ .conphone{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+ }
+ .p1{
+    margin: 1rem 2rem;
+    width: 400px;
+    height: 450px;
+    background-color: lavender;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ h1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 1rem 1rem;
+    width: 100%;
+    height: auto;
+ }
+ .imgp1{
+    width: 200px;
+    height: 220px;
+    margin: 1.5rem;
+    border-radius: 10px;
+ }
+  .imgp2{
+    width: 200px;
+    height: 220px;
+    margin: 1.5rem;
+    border-radius: 10px;
+ }
+  .imgp3{
+    width: 200px;
+    height: 220px;
+    margin: 1.5rem;
+    border-radius: 10px;
+ }
+ .price{
+    font-size: 15px;
+    font-weight: bolder;
+    color: yellowgreen;
+ }
